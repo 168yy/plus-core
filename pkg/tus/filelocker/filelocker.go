@@ -9,8 +9,7 @@
 package filelocker
 
 import (
-	"github.com/jxo-me/plus-core/pkg/v2/tus"
-	"gopkg.in/Acconut/lockfile.v1"
+	"github.com/168yy/plus-core/pkg/v2/tus"
 	"os"
 	"path/filepath"
 )

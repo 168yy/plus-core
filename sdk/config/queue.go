@@ -2,8 +2,8 @@ package config
 
 import (
 	"context"
+	"github.com/168yy/plus-core/core/v2/boot"
 	"github.com/gogf/gf/v2/os/glog"
-	"github.com/jxo-me/plus-core/core/v2/boot"
 )
 
 const (

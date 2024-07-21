@@ -1,6 +1,6 @@
 package locker
 
-import "github.com/jxo-me/redislock"
+import "github.com/168yy/redislock"
 
 type ILocker interface {
 	String() string

@@ -3,11 +3,11 @@ package config
 import (
 	"context"
 	"fmt"
+	"github.com/168yy/plus-core/core/v2/boot"
+	"github.com/168yy/plus-core/pkg/v2/tus"
+	"github.com/168yy/plus-core/pkg/v2/ws"
 	"github.com/gogf/gf/v2/os/gcfg"
 	"github.com/gogf/gf/v2/os/glog"
-	"github.com/jxo-me/plus-core/core/v2/boot"
-	"github.com/jxo-me/plus-core/pkg/v2/tus"
-	"github.com/jxo-me/plus-core/pkg/v2/ws"
 )
 
 var (

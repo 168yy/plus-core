@@ -2,11 +2,10 @@ package nsq
 
 import (
 	"context"
+	messageLib "github.com/168yy/plus-core/core/v2/message"
+	queueLib "github.com/168yy/plus-core/core/v2/queue"
+	"github.com/168yy/plus-core/sdk/v2/message"
 	json "github.com/json-iterator/go"
-	messageLib "github.com/jxo-me/plus-core/core/v2/message"
-	queueLib "github.com/jxo-me/plus-core/core/v2/queue"
-	"github.com/jxo-me/plus-core/sdk/v2/message"
-	"github.com/nsqio/go-nsq"
 )
 
 // NewNSQ nsq模式 只能监听一个channel

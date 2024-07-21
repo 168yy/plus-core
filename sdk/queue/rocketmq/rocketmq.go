@@ -3,16 +3,15 @@ package rocketmq
 import (
 	"context"
 	"encoding/json"
-	"github.com/apache/rocketmq-client-go/v2"
+	messageLib "github.com/168yy/plus-core/core/v2/message"
+	queueLib "github.com/168yy/plus-core/core/v2/queue"
+	"github.com/168yy/plus-core/sdk/v2/message"
 	"github.com/apache/rocketmq-client-go/v2/consumer"
 	"github.com/apache/rocketmq-client-go/v2/primitive"
 	"github.com/apache/rocketmq-client-go/v2/producer"
 	"github.com/apache/rocketmq-client-go/v2/rlog"
 	"github.com/gogf/gf/v2/os/glog"
 	"github.com/gogf/gf/v2/util/gconv"
-	messageLib "github.com/jxo-me/plus-core/core/v2/message"
-	queueLib "github.com/jxo-me/plus-core/core/v2/queue"
-	"github.com/jxo-me/plus-core/sdk/v2/message"
 	"sync"
 )
 

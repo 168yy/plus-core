@@ -2,7 +2,7 @@ package task
 
 import (
 	"context"
-	"github.com/jxo-me/plus-core/core/v2/task"
+	"github.com/168yy/plus-core/core/v2/task"
 )
 
 const (

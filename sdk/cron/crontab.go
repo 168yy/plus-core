@@ -2,9 +2,9 @@ package cron
 
 import (
 	"context"
+	"github.com/168yy/plus-core/core/v2/cron"
 	"github.com/gogf/gf/v2/os/gcron"
 	"github.com/gogf/gf/v2/os/glog"
-	"github.com/jxo-me/plus-core/core/v2/cron"
 )
 
 var insCrontab = crontab{

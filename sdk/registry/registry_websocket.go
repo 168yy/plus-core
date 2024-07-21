@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/jxo-me/plus-core/pkg/v2/ws"
+	"github.com/168yy/plus-core/pkg/v2/ws"
 )
 
 type WebSocketRegistry struct {

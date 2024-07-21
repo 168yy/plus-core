@@ -1,9 +1,9 @@
 package redis
 
 import (
+	"github.com/168yy/redislock"
+	"github.com/168yy/redislock/redis/gredis"
 	glib "github.com/gogf/gf/v2/database/gredis"
-	"github.com/jxo-me/redislock"
-	"github.com/jxo-me/redislock/redis/gredis"
 	"time"
 )
 

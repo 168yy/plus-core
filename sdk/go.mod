@@ -1,10 +1,10 @@
-module github.com/jxo-me/plus-core/sdk/v2
+module github.com/168yy/plus-core/sdk/v2
 
 go 1.20
 
 replace (
-	github.com/jxo-me/plus-core/core/v2 => ../core
-	github.com/jxo-me/plus-core/pkg/v2 => ../pkg
+	github.com/168yy/plus-core/core/v2 => ../core
+	github.com/168yy/plus-core/pkg/v2 => ../pkg
 )
 
 require (
@@ -15,12 +15,12 @@ require (
 	github.com/gogf/gf/v2 v2.5.1
 	github.com/google/uuid v1.3.0
 	github.com/json-iterator/go v1.1.12
-	github.com/jxo-me/gf-metrics v0.1.4
-	github.com/jxo-me/gfbot v0.1.16
-	github.com/jxo-me/plus-core/core/v2 v2.0.0
-	github.com/jxo-me/plus-core/pkg/v2 v2.0.0
-	github.com/jxo-me/rabbitmq-go v1.0.4
-	github.com/jxo-me/redislock v1.0.2
+	github.com/168yy/gf-metrics v0.1.4
+	github.com/168yy/gfbot v0.1.16
+	github.com/168yy/plus-core/core/v2 v2.0.0
+	github.com/168yy/plus-core/pkg/v2 v2.0.0
+	github.com/168yy/rabbitmq-go v1.0.4
+	github.com/168yy/redislock v1.0.2
 	github.com/nsqio/go-nsq v1.1.0
 	github.com/robinjoseph08/redisqueue/v2 v2.1.0
 	golang.org/x/text v0.11.0
