@@ -1,3 +1,3 @@
-module github.com/jxo-me/plus-core/utils
+module github.com/168yy/plus-core/utils
 
 go 1.20

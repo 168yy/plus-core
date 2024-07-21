@@ -3,7 +3,7 @@ package config
 import (
 	"context"
 	"fmt"
-	"github.com/jxo-me/rabbitmq-go"
+	"github.com/168yy/rabbitmq-go"
 	"time"
 )
 

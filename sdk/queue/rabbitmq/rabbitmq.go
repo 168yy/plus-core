@@ -3,12 +3,12 @@ package rabbitmq
 import (
 	"context"
 	"encoding/json"
+	messageLib "github.com/168yy/plus-core/core/v2/message"
+	queueLib "github.com/168yy/plus-core/core/v2/queue"
+	"github.com/168yy/plus-core/sdk/v2/message"
+	"github.com/168yy/rabbitmq-go"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/os/glog"
-	messageLib "github.com/jxo-me/plus-core/core/v2/message"
-	queueLib "github.com/jxo-me/plus-core/core/v2/queue"
-	"github.com/jxo-me/plus-core/sdk/v2/message"
-	"github.com/jxo-me/rabbitmq-go"
 	"sync"
 	"time"
 )

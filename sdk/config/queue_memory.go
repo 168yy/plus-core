@@ -2,8 +2,8 @@ package config
 
 import (
 	"context"
-	queueLib "github.com/jxo-me/plus-core/core/v2/queue"
-	"github.com/jxo-me/plus-core/sdk/v2/queue/memory"
+	queueLib "github.com/168yy/plus-core/core/v2/queue"
+	"github.com/168yy/plus-core/sdk/v2/queue/memory"
 )
 
 const (

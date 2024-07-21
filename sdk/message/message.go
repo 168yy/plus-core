@@ -1,7 +1,7 @@
 package message
 
 import (
-	"github.com/jxo-me/plus-core/core/v2/message"
+	"github.com/168yy/plus-core/core/v2/message"
 )
 
 type Message struct {

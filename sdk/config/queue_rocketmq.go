@@ -2,11 +2,11 @@ package config
 
 import (
 	"context"
+	queueLib "github.com/168yy/plus-core/core/v2/queue"
+	"github.com/168yy/plus-core/sdk/v2/queue/rocketmq"
 	"github.com/apache/rocketmq-client-go/v2/primitive"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/glog"
-	queueLib "github.com/jxo-me/plus-core/core/v2/queue"
-	"github.com/jxo-me/plus-core/sdk/v2/queue/rocketmq"
 )
 
 const (

@@ -2,7 +2,7 @@ package boot
 
 import (
 	"context"
-	"github.com/jxo-me/plus-core/core/v2/queue"
+	"github.com/168yy/plus-core/core/v2/queue"
 )
 
 type Initialize interface {

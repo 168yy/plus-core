@@ -1,17 +1,17 @@
-module github.com/jxo-me/plus-core/core/v2
+module github.com/168yy/plus-core/core/v2
 
 go 1.20
 
-replace github.com/jxo-me/plus-core/pkg/v2 => ../pkg
+replace github.com/168yy/plus-core/pkg/v2 => ../pkg
 
 require (
 	github.com/casbin/casbin/v2 v2.72.1
 	github.com/gogf/gf-jwt/v2 v2.1.0
 	github.com/gogf/gf/v2 v2.5.1
-	github.com/jxo-me/gf-metrics v0.1.4
-	github.com/jxo-me/gfbot v0.1.16
-	github.com/jxo-me/plus-core/pkg/v2 v2.0.0
-	github.com/jxo-me/redislock v1.0.2
+	github.com/168yy/gf-metrics v0.1.4
+	github.com/168yy/gfbot v0.1.16
+	github.com/168yy/plus-core/pkg/v2 v2.0.0
+	github.com/168yy/redislock v1.0.2
 )
 
 require (

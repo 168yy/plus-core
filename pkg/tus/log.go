@@ -2,7 +2,7 @@ package tus
 
 import (
 	"context"
-	"github.com/jxo-me/plus-core/core/v2/logger"
+	"github.com/168yy/plus-core/core/v2/logger"
 )
 
 func (u *Uploader) log(ctx context.Context, eventName string, details ...string) {

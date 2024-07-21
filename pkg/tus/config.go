@@ -2,8 +2,8 @@ package tus
 
 import (
 	"errors"
+	"github.com/168yy/plus-core/core/v2/logger"
 	"github.com/gogf/gf/v2/os/glog"
-	"github.com/jxo-me/plus-core/core/v2/logger"
 	"net/url"
 	"os"
 )

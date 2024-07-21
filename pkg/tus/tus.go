@@ -2,8 +2,8 @@ package tus
 
 import (
 	"context"
+	"github.com/168yy/plus-core/core/v2/logger"
 	"github.com/gogf/gf/v2/net/ghttp"
-	"github.com/jxo-me/plus-core/core/v2/logger"
 	"io"
 	"math"
 	"strconv"

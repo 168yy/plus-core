@@ -2,8 +2,8 @@ package locker
 
 import (
 	"fmt"
-	"github.com/jxo-me/plus-core/core/v2/locker"
-	"github.com/jxo-me/redislock"
+	"github.com/168yy/plus-core/core/v2/locker"
+	"github.com/168yy/redislock"
 )
 
 // NewLocker 创建对应上下文分布式锁

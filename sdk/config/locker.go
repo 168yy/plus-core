@@ -3,11 +3,11 @@ package config
 import (
 	"context"
 	"fmt"
+	lockerLib "github.com/168yy/plus-core/core/v2/locker"
+	"github.com/168yy/plus-core/sdk/v2/locker/redis"
 	"github.com/gogf/gf/v2/database/gredis"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/glog"
-	lockerLib "github.com/jxo-me/plus-core/core/v2/locker"
-	"github.com/jxo-me/plus-core/sdk/v2/locker/redis"
 )
 
 var insLocker = Locker{}

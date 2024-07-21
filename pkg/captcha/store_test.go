@@ -2,8 +2,8 @@ package captcha
 
 import (
 	"fmt"
-	cacheLib "github.com/jxo-me/plus-core/core/v2/cache"
-	"github.com/jxo-me/plus-core/sdk/v2/cache/memory"
+	cacheLib "github.com/168yy/plus-core/core/v2/cache"
+	"github.com/168yy/plus-core/sdk/v2/cache/memory"
 	"github.com/mojocn/base64Captcha"
 	"math/rand"
 	"testing"
